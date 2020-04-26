@@ -13,6 +13,7 @@ LOCAL_C_INCLUDES+= $(kernel_includes)
 LOCAL_ADDITIONAL_DEPENDENCIES := $(common_deps)
 
 LIB2D_ROTATION=false
+LOCAL_C_INCLUDES += hardware/qcom/media/msm8996/mm-core/inc
 
 LOCAL_C_INCLUDES += \
     $(LOCAL_PATH)/inc \

@@ -1,5 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
+
 # ------------------------------------------------------------------------------
 #                Make the shared library (libqomx_core)
 # ------------------------------------------------------------------------------
@@ -9,6 +10,8 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_CFLAGS := -Werror \
                    -g -O0
+
+LOCAL_C_INCLUDES += hardware/qcom/media/msm8996/mm-core/inc
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../qexif
 
